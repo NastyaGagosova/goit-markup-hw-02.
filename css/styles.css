@@ -1,0 +1,143 @@
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-text-color: #757575;
+}
+/* Стили для index.html */
+.body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+/* nav */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+}
+.logo-part {
+  color: var(--primary-text-color);
+}
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-nav a {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contact-link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* main */
+.main {
+  background-color: #2f303a;
+}
+.main-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.order {
+  background-color: var(--accent-color);
+}
+.order {
+  color: #ffffff;
+}
+.features {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.benefit-text {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1, 7;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.job {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.logo-part-footer {
+  color: #ffffff;
+}
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+.adds {
+  color: #ffffff;
+}
+/* стили для портфолио */
+.port-nav .item {
+  background-color: #f5f4fa;
+}
+.port-nav .item:hover,
+.port-nav .item:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.signature {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
+.port-nav .item {
+  cursor: pointer;
+}

@@ -2,13 +2,18 @@
   --primary-text-color: #212121;
   --accent-color: #2196f3;
   --secondary-text-color: #757575;
+  --white: #ffffff;
+  --background-parts: #f5f4fa;
+  --background-parts-dark: #2f303a;
+  --buttom-hovfoc: #188ce8;
 }
+
 /* Стили для index.html */
 .body {
-  background-color: #ffffff;
+  background-color: var(--white);
   color: var(--primary-text-color);
-  font-family: roboto, sans-serif;
-  letter-spacing: 0.02em;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 /* nav */
 .logo {
@@ -16,19 +21,19 @@
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .logo-part {
   color: var(--primary-text-color);
 }
-.site-nav {
+.snlink {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-}
-.site-nav a {
   color: var(--primary-text-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -54,10 +59,10 @@
 }
 /* main */
 .main {
-  background-color: #2f303a;
+  background-color: var(--background-parts-dark);
 }
 .main-title {
-  color: #ffffff;
+  color: var(--white);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -69,18 +74,30 @@
   background-color: var(--accent-color);
 }
 .order {
-  color: #ffffff;
+  color: var(--white);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.order:hover,
+.order:focus {
+  color: var(--buttom-hovfoc);
 }
 .features {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 .benefit-text {
   color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1, 7;
+  letter-spacing: 0.03em;
 }
 .section-title {
   font-weight: 700;
@@ -89,43 +106,50 @@
   text-align: center;
 }
 .our-team {
-  background-color: #f5f4fa;
+  background-color: var(--background-parts);
 }
 .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 .job {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.card {
+  background-color: var(--white);
 }
 /* footer */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-parts-dark);
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .logo-part-footer {
-  color: #ffffff;
+  color: var(--white);
 }
 .address {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
 }
 .adds {
-  color: #ffffff;
+  color: var(--white);
 }
 /* стили для портфолио */
 .port-nav .item {
-  background-color: #f5f4fa;
+  background-color: var(--background-parts);
 }
 .port-nav .item:hover,
 .port-nav .item:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white);
 }
 .project {
   font-weight: 700;
@@ -137,7 +161,13 @@
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 .port-nav .item {
   cursor: pointer;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border-radius: 4px;
 }

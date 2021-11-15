@@ -41,14 +41,14 @@
 .site-nav .link.current {
   color: var(--accent-color);
 }
-.contact-link {
+.contact-linkh {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
-.contact-link:hover,
-.contact-link:focus {
+.contact-linkh:hover,
+.contact-linkh:focus {
   color: var(--accent-color);
 }
 .list {
@@ -84,7 +84,7 @@
 }
 .order:hover,
 .order:focus {
-  color: var(--buttom-hovfoc);
+  background-color: var(--buttom-hovfoc);
 }
 .features {
   font-weight: bold;
@@ -139,12 +139,23 @@
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
 }
+.contact-linkf {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.contact-linkf:hover,
+.contact-linkf:focus {
+  color: var(--accent-color);
+}
 .adds {
   color: var(--white);
 }
 /* стили для портфолио */
 .port-nav .item {
   background-color: var(--background-parts);
+  font-family: Roboto;
 }
 .port-nav .item:hover,
 .port-nav .item:focus {
@@ -162,6 +173,7 @@
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  font-weight: normal;
 }
 .port-nav .item {
   cursor: pointer;

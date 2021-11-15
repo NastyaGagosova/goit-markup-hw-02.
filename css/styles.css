@@ -33,7 +33,16 @@
   line-height: 1.14;
   color: var(--primary-text-color);
 }
-
+.contact-link-head {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.contact-link-head:hover,
+.contact-link-head:focus {
+  color: var(--accent-color);
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -41,14 +50,14 @@
 .site-nav .link.current {
   color: var(--accent-color);
 }
-.contact-link {
+.contact-linkf {
   color: var(--secondary-text-color);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
 }
-.contact-link:hover,
-.contact-link:focus {
+.contact-linkf:hover,
+.contact-linkf:focus {
   color: var(--accent-color);
 }
 .list {
@@ -84,7 +93,7 @@
 }
 .order:hover,
 .order:focus {
-  color: var(--buttom-hovfoc);
+  background-color: var(--buttom-hovfoc);
 }
 .features {
   font-weight: bold;
@@ -139,6 +148,9 @@
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
 }
+.contact-link {
+  font-weight: 400;
+}
 .adds {
   color: var(--white);
 }
@@ -162,6 +174,7 @@
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  font-weight: normal;
 }
 .port-nav .item {
   cursor: pointer;
@@ -170,4 +183,5 @@
   font-size: 16px;
   line-height: 1.6;
   border-radius: 4px;
+  font-family: Roboto;
 }
